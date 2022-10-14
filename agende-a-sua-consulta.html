@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html" target="self">PÁGINA INICIAL</a></li>
+                <li><a href="cartao-fidelidade.html" target="_self">CARTÃO FIDELIDADE</a></li>
+                <li><a href="exames.html" target="_self">EXAMES</a></li>
+                <li><a href="quem-somos.html" target="_self">QUEM SOMOS</a></li>
+                <li><a href="fale-conosco.html" target="_self">FALE CONOSCO</a></li>
+                <li><a href="agende-a-sua-consulta.html" target="_self">AGENDE A SUA CONSULTA</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="image/medicina.jpg" alt="">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <form action="" autocomplete="off" method="post" onsubmit="alert('Formulário enviado com sucesso!')">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div class="row">
+                            <label for="inome">Nome </label>
+                            <input type="text" name="nome" id="inome">
+                        </div>
+                        <div class="row">
+                            <label for="icpf">CPF </label>
+                            <input type="number" name="cpf" id="icpf">
+                        </div>
+                        <div class="row">
+                            <label for="itel">Telefone </label>
+                            <input type="tel" name="tel" id="itel">
+                        </div>
+                        <div class="row">
+                            <label for="iemail">E-mail </label>
+                            <input type="email" name="email" id="iemail">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <div class="row">
+                            <label for="ipais">País</label>
+                            <input type="text" name="pais" id="ipais">
+                        </div>
+                        <div class="row">
+                            <label for="iestado">Estado</label>
+                            <input type="text" name="estado" id="iestado">
+                        </div>
+                        <div class="row">
+                            <label for="icep">CEP</label>
+                            <input type="number" name="cep" id="icep">
+                        </div>
+                        <div class="row">
+                            <label for="irua">Rua</label>
+                            <input type="text" name="rua" id="irua">
+                        </div>
+                        <div class="row">
+                            <label for="ibairro">Bairro</label>
+                            <input type="text" name="bairro" id="ibairro">
+                        </div>
+                        <div class="row">
+                            <label for="icompl">Complemento</label>
+                            <input type="text" name="compl" id="icompl">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Agende a sua consulta</legend>
+                        <div class="row">
+                            <label for="iesp">Especialidade: </label>
+                            <select name="esp" id="iesp">
+                                <option value="">Opção 1</option>
+                                <option value="">Opção 2</option>
+                                <option value="">Opção 3</option>
+                                <option value="">Opção 4</option>
+                                <option value="">Opção 5</option>
+                            </select>
+
+                            <label for="iunidade">Unidade: </label>
+                            <select name="unidade" id="iunidade">
+                                <option value="">Opção 1</option>
+                                <option value="">Opção 2</option>
+                                <option value="">Opção 3</option>
+                                <option value="">Opção 4</option>
+                                <option value="">Opção 5</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label for="iconv">Convênio: </label>
+                            <select name="conv" id="iconv">
+                                <option value="">Opção 1</option>
+                                <option value="">Opção 2</option>
+                                <option value="">Opção 3</option>
+                                <option value="">Opção 4</option>
+                                <option value="">Opção 5</option>
+                            </select>
+
+                            <label for="idata">Data: </label>
+                            <input type="date" name="data" id="idata">
+                        </div>
+                        <div class="row">
+                            <label for="ihora">Horário: </label>
+                            <select name="hora" id="ihora">
+                                <option value="">00:00</option>
+                                <option value="">00:00</option>
+                                <option value="">00:00</option>
+                                <option value="">00:00</option>
+                                <option value="">00:00</option>
+                            </select>
+
+                            <label for="ireqmedica">Requisição médica: </label>
+                            <input type="file" name="file" id="ireqmedica" multiple>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar Formulário</button>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <ul>
+                    <li><a href="template.html" target="self">PÁGINA INICIAL</a></li>
+                    <li><a href="cartao-fidelidade.html" target="_self">CARTÃO FIDELIDADE</a></li>
+                    <li><a href="exames.html" target="_self">EXAMES</a></li>
+                    <li><a href="quem-somos.html" target="_self">QUEM SOMOS</a></li>
+                    <li><a href="fale-conosco.html" target="_self">FALE CONOSCO</a></li>
+                    <li><a href="agende-a-sua-consulta.html" target="_self">AGENDE A SUA CONSULTA</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
